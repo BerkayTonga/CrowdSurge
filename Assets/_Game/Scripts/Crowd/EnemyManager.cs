@@ -170,7 +170,9 @@ namespace CrowdSurge
                 SaveData.TotalDefeated += g.def.count;
                 _fx.Burst(g.swarm.Center + Vector3.up, _enemyColor, boss ? 90 : 40, boss ? 11f : 7f, 0.35f, 0.9f);
                 _fx.Ring(g.swarm.Center + Vector3.up * 0.4f, Color.white, boss ? 44 : 28, boss ? 12f : 8f, 0.34f);
-                _texts.Spawn(g.swarm.Center + new Vector3(0f, boss ? 5f : 3.2f, 0f), boss ? "PATRON YENİLDİ!" : "YENDİN!", new Color(1f, 0.9f, 0.3f), boss ? 1.8f : 1.2f);
+                var gold = new Color(1f, 0.85f, 0.3f);
+                _fx.Burst(g.swarm.Center + Vector3.up * 2f, gold, boss ? 50 : 22, boss ? 9f : 6f, 0.22f, 1.1f);
+                _fx.Ring(g.swarm.Center + Vector3.up * 0.2f, gold, boss ? 36 : 22, boss ? 10f : 6.5f, 0.26f);
                 AudioManager.Sound(boss ? Sfx.BossDown : Sfx.GatePositive, boss ? 0.95f : 0.6f, 0.02f, 0.2f);
                 _camera.Punch(boss ? 6f : 3f);
             }
