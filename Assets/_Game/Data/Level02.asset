@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fc43d6b3d436744bac296ae52178c8, type: 3}
+  m_Name: Level02
+  m_EditorClassIdentifier: Assembly-CSharp::CrowdSurge.LevelConfig
+  levelName: MEDIUM
+  startCount: 12
+  finishZ: 380
+  star2Count: 30
+  star3Count: 70
+  skyColor: {r: 1, g: 0.62, b: 0.42, a: 1}
+  roadLight: {r: 0.86, g: 0.76, b: 0.72, a: 1}
+  roadDark: {r: 0.66, g: 0.54, b: 0.54, a: 1}
+  gates:
+  - z: 30
+    left:
+      op: 0
+      value: 10
+    right:
+      op: 2
+      value: 2
+  - z: 90
+    left:
+      op: 2
+      value: 2
+    right:
+      op: 1
+      value: 8
+  - z: 150
+    left:
+      op: 2
+      value: 3
+    right:
+      op: 0
+      value: 15
+  - z: 205
+    left:
+      op: 1
+      value: 10
+    right:
+      op: 2
+      value: 2
+  - z: 265
+    left:
+      op: 0
+      value: 30
+    right:
+      op: 2
+      value: 2
+  saws:
+  - z: 55
+    x: -2.5
+    patrolAmplitude: 0
+    patrolSpeed: 0
+  - z: 68
+    x: 2.5
+    patrolAmplitude: 0
+    patrolSpeed: 0
+  - z: 125
+    x: 0
+    patrolAmplitude: 3
+    patrolSpeed: 1.5
+  - z: 175
+    x: -3
+    patrolAmplitude: 0
+    patrolSpeed: 0
+  - z: 190
+    x: 3
+    patrolAmplitude: 0
+    patrolSpeed: 0
+  - z: 240
+    x: -3
+    patrolAmplitude: 0
+    patrolSpeed: 0
+  enemies:
+  - z: 118
+    x: 0
+    count: 20
+    isBoss: 0
+  - z: 228
+    x: 0
+    count: 55
+    isBoss: 0
+  - z: 330
+    x: 0
+    count: 100
+    isBoss: 1

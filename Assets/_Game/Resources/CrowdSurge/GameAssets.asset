@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf123bdc4486a143aa5e57425c8de99, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: Assembly-CSharp::CrowdSurge.GameAssets
+  levels:
+  - {fileID: 11400000, guid: d1e6c455321f4bf4cba22b1aff950080, type: 2}
+  - {fileID: 11400000, guid: 716fb41e7eb93494d84eca4a85b92225, type: 2}
+  - {fileID: 11400000, guid: de3b7b3a9e091834395b6800529d0ffe, type: 2}
+  character: {fileID: 11400000, guid: 7cffe90394bd31c47b12a93586c89789, type: 2}
+  playerMaterials:
+  - {fileID: 2100000, guid: a101272843a675d48a87ff88015b307c, type: 2}
+  - {fileID: 2100000, guid: 29a1e6794887e0d408c2462e3a9562a6, type: 2}
+  - {fileID: 2100000, guid: 7363aee83d32dc14289c686fa19b690a, type: 2}
+  enemyMaterials:
+  - {fileID: 2100000, guid: 5fecf31ac0228fb4eabf629f4bed74c4, type: 2}
+  - {fileID: 2100000, guid: bd4b02ecef0c7cd4ebe0e12ed4b943d8, type: 2}
+  - {fileID: 2100000, guid: 91b0bf5d45c3b8f4db685602b0a4eb6f, type: 2}
+  bossMaterials:
+  - {fileID: 2100000, guid: ab4c012a5f8095e4c9c8e3f07c8f8864, type: 2}
+  - {fileID: 2100000, guid: 4102b338d84299249851e30a840f2df5, type: 2}
+  - {fileID: 2100000, guid: 2b35e66cb9b173c4e913310c427e3cb9, type: 2}
+  roadLight: {fileID: 2100000, guid: 9ab496264f27d2845b1572f7dd6aeb0e, type: 2}
+  roadDark: {fileID: 2100000, guid: 89def91267a64804aa9d54835ad3a85c, type: 2}
+  rail: {fileID: 2100000, guid: e920f757f75c9ce4296e0a858de58f16, type: 2}
+  finishWhite: {fileID: 2100000, guid: ac78196a181c307469fc0ecb582855ce, type: 2}
+  finishBlack: {fileID: 2100000, guid: 8c0ddc7f1d0d00144a0412ad9a3926cc, type: 2}
+  cloud: {fileID: 2100000, guid: 304f7061fd4826b43a57468620f566b5, type: 2}
+  gateGood: {fileID: 2100000, guid: 96a5da2328eb332439cf0da64ca1666a, type: 2}
+  gateBad: {fileID: 2100000, guid: 3d054224672929b4aa046731c2792e77, type: 2}
+  gateFrameGood: {fileID: 2100000, guid: 0fef7dc1ed1c2724889b10903796b6f4, type: 2}
+  gateFrameBad: {fileID: 2100000, guid: 678126480671b7d4fbfc351751b6db3e, type: 2}
+  sawBlade: {fileID: 2100000, guid: 1bfcd248b09ff2548a2dcb11bcb388a5, type: 2}
+  sawHub: {fileID: 2100000, guid: 6f1505ea8fc9b2a4aba5a710a779704b, type: 2}
+  particle: {fileID: 2100000, guid: 5ed3077802befee4381eff9842facf66, type: 2}

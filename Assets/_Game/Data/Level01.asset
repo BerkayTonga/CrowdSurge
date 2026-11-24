@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fc43d6b3d436744bac296ae52178c8, type: 3}
+  m_Name: Level01
+  m_EditorClassIdentifier: Assembly-CSharp::CrowdSurge.LevelConfig
+  levelName: EASY
+  startCount: 10
+  finishZ: 270
+  star2Count: 25
+  star3Count: 50
+  skyColor: {r: 0.36, g: 0.67, b: 1, a: 1}
+  roadLight: {r: 0.78, g: 0.8, b: 0.86, a: 1}
+  roadDark: {r: 0.58, g: 0.6, b: 0.68, a: 1}
+  gates:
+  - z: 30
+    left:
+      op: 2
+      value: 2
+    right:
+      op: 0
+      value: 8
+  - z: 85
+    left:
+      op: 0
+      value: 15
+    right:
+      op: 2
+      value: 2
+  - z: 145
+    left:
+      op: 2
+      value: 2
+    right:
+      op: 0
+      value: 10
+  - z: 195
+    left:
+      op: 0
+      value: 20
+    right:
+      op: 1
+      value: 5
+  saws:
+  - z: 60
+    x: -2
+    patrolAmplitude: 0
+    patrolSpeed: 0
+  - z: 170
+    x: 2.5
+    patrolAmplitude: 0
+    patrolSpeed: 0
+  enemies:
+  - z: 115
+    x: 0
+    count: 8
+    isBoss: 0
+  - z: 232
+    x: 0
+    count: 25
+    isBoss: 1
