@@ -44,11 +44,10 @@
 
 1. **Unity 6000.6** (URP 17.6) kur.
 2. Depoyu klonla, Unity Hub ile klasörü aç.
-3. Asset Store'dan ücretsiz **Cube People - Demo** paketini içe aktar (depoda yok; materyaller dokularına GUID ile bağlandığından otomatik eşleşir).
-4. **CrowdSurge > Bake Characters**, ardından **CrowdSurge > Setup Project** menülerini çalıştır.
-5. Play'e bas. Sahnede sadece kamera, ışık ve `GameBootstrap` vardır; gerisi çalışma anında kurulur.
+3. İstersen **CrowdSurge > Bake Characters**, ardından **CrowdSurge > Setup Project** menülerini çalıştır.
+4. Play'e bas. Sahnede sadece kamera, ışık ve `GameBootstrap` vardır; gerisi çalışma anında kurulur.
 
-> Hazır bake edilmiş `Assets/_Game/Baked/Runner.asset` depoda mevcut; paket içe aktarılınca oyun doğrudan çalışmalı.
+> Cube People - Demo paketi ve hazır bake edilmiş `Assets/_Game/Baked/Runner.asset` depoda mevcut; proje açılır açılmaz çalışır.
 
 ## Özelleştirme
 
@@ -62,5 +61,5 @@
 ## Kaynaklar ve lisans
 
 - Kod: [MIT](LICENSE), (c) Berkay Tonga.
-- Karakterler: Fatty War'un **Cube People - Demo** paketi (Unity Asset Store), depoda yoktur; kendi lisansına uyun.
+- Karakterler: Fatty War'un **Cube People - Demo** paketi (Unity Asset Store), `Assets/CubePeopleDemo` içinde mevcut; koşulları için kendi Readme dosyasına bakın.
 - Ses tamamen kodla üretilir; üçüncü taraf ses yoktur.

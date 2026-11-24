@@ -44,6 +44,3 @@ Thumbs.db
 sysinfo.txt
 crashlytics-build.properties
 
-# ---- Third-party art pack (import it yourself, see README.md)
-/Assets/CubePeopleDemo/
-/Assets/CubePeopleDemo.meta

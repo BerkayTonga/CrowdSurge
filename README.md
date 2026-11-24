@@ -46,11 +46,10 @@
 
 1. Install **Unity 6000.6** (URP 17.6).
 2. Clone the repo and open the folder in Unity Hub.
-3. Import the free **Cube People - Demo** asset from the Unity Asset Store. It is not redistributed in this repo; the materials reference its textures by GUID, so they link up automatically.
-4. Run **CrowdSurge > Bake Characters** (bakes the run animation), then **CrowdSurge > Setup Project** (creates assets and the scene).
-5. Press Play. The scene only holds a camera, a light and `GameBootstrap`; everything else is built at runtime.
+3. Optionally run **CrowdSurge > Bake Characters** (bakes the run animation), then **CrowdSurge > Setup Project** (creates assets and the scene).
+4. Press Play. The scene only holds a camera, a light and `GameBootstrap`; everything else is built at runtime.
 
-> The pre-baked `Assets/_Game/Baked/Runner.asset` is included, so after importing the pack the game should already run.
+> The Cube People - Demo pack and a pre-baked `Assets/_Game/Baked/Runner.asset` are included, so the project runs right after opening.
 
 ## Project structure
 
@@ -82,5 +81,5 @@ Assets/_Game
 ## Credits and license
 
 - Code: [MIT](LICENSE), (c) Berkay Tonga.
-- Characters: **Cube People - Demo** by Fatty War (Unity Asset Store), not included in this repo; follow its own license.
+- Characters: **Cube People - Demo** by Fatty War (Unity Asset Store), included in `Assets/CubePeopleDemo`; see its own Readme for terms.
 - Audio is generated in code; no third-party audio.
